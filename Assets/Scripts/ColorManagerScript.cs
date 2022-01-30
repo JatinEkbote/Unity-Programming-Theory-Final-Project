@@ -22,14 +22,8 @@ public class ColorManagerScript : MonoBehaviour
         GameObject[] cars = GameObject.FindGameObjectsWithTag("Respawn");
         bodyMat.color = Color.blue;
         initialPosition = new Vector3(-0.4f, 1.0f, 0.13f);
-        // (-90.0f, 0, 27.0f, 1)
         initialRotation = new Quaternion(0f, 0f,0f, 1);
         Instantiate();
-        // Material[] myMaterials = vehicle.GetComponent<Renderer>().sharedMaterials;
-        // Debug.Log( myMaterials.Length);
-        // foreach(Material mat in myMaterials) {
-        //     Debug.Log(mat);
-        // }
     }
 
     public void NextButton() {

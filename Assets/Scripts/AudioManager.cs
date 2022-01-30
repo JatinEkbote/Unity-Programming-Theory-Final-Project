@@ -15,12 +15,10 @@ FindVehicle();
 
     bool FindVehicle() {
         if (car == null) {
-            Debug.Log("Car is NUll");
             GameObject[] cars = GameObject.FindGameObjectsWithTag("Respawn");
             if(cars.Length == 1) {
             car = cars[0];
            carScript = car.GetComponent<Car>();
-           Debug.Log("Script Found!");
            return true;
         }
         return false;
