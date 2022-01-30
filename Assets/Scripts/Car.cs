@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//INHERITANCE
 public class Car : Vehicle
 {
-    // string name;
+    //ENCAPSULATION
      private string name
  {
      get; set;
  }
+ //ENCAPSULATION
      private string type
  {
      get; set;
  }
+ //ENCAPSULATION
      private string manufacturer
  {
      get; set;

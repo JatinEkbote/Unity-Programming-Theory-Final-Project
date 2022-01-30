@@ -104,7 +104,7 @@ public class ColorManagerScript : MonoBehaviour
     public void BlueBlackColor(){
         ChangeColor(Color.blue, Color.black);
     }
-
+    //POLYMORPHISM
     private void ChangeColor(Color body){
             bodyMat.color = body;
             subBodyMat.color = body;
